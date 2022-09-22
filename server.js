@@ -14,7 +14,9 @@ app.use(express.json());
 app.use("/api/getAll/institutions/", institutionsRouter);
 app.use("/api/getOne/", institutionSlugRouter);
 app.get("/", (req, res) => {
-  res.send("VAMOS EQUIPOS --> 3002");
+  res.send(
+    "VAMOS!!!! LO HE HECHO QUE FUNCIONEEEEEE!!! AJAJAJAJAJAJJA. ¡AHORA YA PUEDO CANCELAR LA TARJETA DEL CREDITO TRANQUILAMENTE!. JAJJAJAJAJ"
+  );
 });
 //arranque del servidor
 const port = 3002;
