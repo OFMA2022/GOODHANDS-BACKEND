@@ -14,7 +14,7 @@ app.use(express.json());
 app.use("/api/getAll/institutions/", institutionsRouter);
 app.use("/api/getOne/", institutionSlugRouter);
 app.get("/", (req, res) => {
-  res.send("IM TOO GOOT 3002");
+  res.send("VAMOS EQUIPOS --> 3002");
 });
 //arranque del servidor
 const port = 3002;
